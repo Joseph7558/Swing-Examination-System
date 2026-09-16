@@ -51,7 +51,7 @@ The application uses **SQLite** for local data storage and **JDBC** for database
 | OOP | Application architecture |
 
 ## 🏗️ Application Architecture
-
+```
 The application follows a simple object-oriented desktop application architecture.
 
 
@@ -92,10 +92,10 @@ The application follows a simple object-oriented desktop application architectur
 | Exams                                            |
 | Results                                          |
 +--------------------------------------------------+
-
+```
 
 # 🖥️ GUI Components
-
+```text
 The application provides different Java Swing interfaces for different operations.
 
 Main Interface
@@ -123,9 +123,9 @@ Result Interface
 Displays the student's examination performance after evaluation.
 Result Checking
 Allows students to check their examination results.
-
+```
 # 🗄️ Database
-
+```text
 The application uses SQLite as a local relational database.
 Database connectivity is implemented using Java Database Connectivity (JDBC).
 The application uses:examination.db
@@ -158,8 +158,9 @@ Stores examination results such as:
 Result ID
 Student registration number
 Score
-
+```
 ## 📚 Examination Details
+```text
 The examination system currently contains:
 20 multiple-choice questions
 1 mark per question
@@ -169,9 +170,9 @@ Automatic evaluation
 Automatic grade calculation
 Pass/Fail status
 The questions are based mainly on Java and Object-Oriented Programming concepts.
-
+```
 ## 📊 Grading System
-
+```text
 | Score | Grade |
 | ----: | :---: |
 | 19–20 |   A+  |
@@ -186,9 +187,9 @@ The questions are based mainly on Java and Object-Oriented Programming concepts.
 Passing Score
 8 / 20
 A score of 8 or above is considered a pass.
-
+```
 ## 🔄 Application Workflow
-
+```text
                   START
                    │
                    ▼
@@ -258,7 +259,9 @@ A score of 8 or above is considered a pass.
                     │
                     ▼
                    END
+```
 ## 💾 Data Flow
+```text
 Student
    │
    ▼
@@ -290,16 +293,17 @@ SQLite Database
    │
    ▼
 Result Display
-
+```
 ## ⏱️ Examination Timer
+```text
 The examination uses a Java Swing timer.
 The examination duration is:
 10 minutes
 The timer counts down continuously during the examination
 When the timer reaches zero, the examination is automatically submitted and evaluated.
-
+```
 ## 📂 Project Structure
-
+```text
 Swing-Examination-System/
 │
 ├── src/
@@ -319,8 +323,9 @@ The database file is excluded from Git using .gitignore.
 Compiled Files
 Java compiled .class files are generated inside the bin directory when the project is compiled.
 The bin directory is excluded from Git because compiled files do not need to be stored in the source repository.
-
+```
 ## ⚙️ Requirements
+```text
 Before running the project, install:
 Java JDK 8 or later
 A Java IDE such as:
@@ -330,7 +335,7 @@ NetBeans
 Visual Studio Code
 The project includes the SQLite JDBC driver:
 lib/sqlite-jdbc-3.50.3.0.jar
-
+```
 ## ▶️ How to Run
 
 # 1. Clone the Repository
@@ -351,6 +356,7 @@ java -cp "bin;lib/sqlite-jdbc-3.50.3.0.jar" SwingExaminationSystem
 java -cp "bin:lib/sqlite-jdbc-3.50.3.0.jar" SwingExaminationSystem
 
 ## 🧠 Concepts Demonstrated
+```text
 Java Programming
 Classes and objects
 Constructors
@@ -388,8 +394,9 @@ Prepared statements
 CRUD operations
 Database connectivity
 Relational database concepts
-
+```
 ## 🎓 Academic Purpose
+```text
 This project was developed as an academic project to demonstrate practical knowledge of:
 Java Programming
 Object-Oriented Programming
@@ -401,8 +408,9 @@ SQL
 Database Connectivity
 Exception Handling
 Desktop Application Development
-
+```
 ## 📈 Learning Outcomes
+```text
 Through this project, the following practical skills are demonstrated:
 Developing Java desktop applications
 Designing graphical user interfaces
@@ -414,7 +422,7 @@ Designing an examination workflow
 Implementing automatic evaluation
 Managing examination results
 Using Git and GitHub for version control
-
+```
 ## 👨‍💻 Author
 
 **Joseph J.**  
