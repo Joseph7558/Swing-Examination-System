@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 # ==========================================
 # Java Compilation / Build Files
 # ==========================================
+=======
+# ==============================
+
+# Java Compiled Files
+
+# ==============================
+>>>>>>> 609792104aa5e0cc884ff6fe5222d38dec9c9a76
 
 *.class
 bin/
 out/
 target/
+<<<<<<< HEAD
 build/
 dist/
 
@@ -14,22 +23,51 @@ dist/
 # ==========================================
 
 # IntelliJ IDEA
+=======
+
+# ==============================
+
+# Java Build Files
+
+# ==============================
+
+build/
+dist/
+
+# ==============================
+
+# IDE Files
+
+# ==============================
+
+# IntelliJ IDEA
+
+>>>>>>> 609792104aa5e0cc884ff6fe5222d38dec9c9a76
 .idea/
 *.iml
 *.iws
 *.ipr
 
 # Eclipse
+<<<<<<< HEAD
+=======
+
+>>>>>>> 609792104aa5e0cc884ff6fe5222d38dec9c9a76
 .classpath
 .project
 .settings/
 
 # NetBeans
+<<<<<<< HEAD
+=======
+
+>>>>>>> 609792104aa5e0cc884ff6fe5222d38dec9c9a76
 /nbproject/private/
 /nbbuild/
 /dist/
 /.nb-gradle/
 
+<<<<<<< HEAD
 # Visual Studio Code
 .vscode/
 
@@ -71,6 +109,51 @@ desktop.ini
 # ==========================================
 # Java Crash / Error Logs
 # ==========================================
+=======
+# ==============================
+
+# Visual Studio Code
+
+# ==============================
+
+.vscode/
+
+# ==============================
+
+# Operating System Files
+
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+
+# Temporary / Backup Files
+
+# ==============================
+
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+
+# ==============================
+
+# Logs
+
+# ==============================
+
+*.log
+
+# ==============================
+
+# Java Crash Logs
+
+# ==============================
+>>>>>>> 609792104aa5e0cc884ff6fe5222d38dec9c9a76
 
 hs_err_pid*
 replay_pid*
